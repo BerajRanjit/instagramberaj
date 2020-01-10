@@ -123,7 +123,7 @@
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/fb_circle"
         android:drawablePadding="3dp"
-        android:text="Log in as @aryanrb"
+        android:text="Log in as @Beraj09"
         android:textAllCaps="false"
         android:textColor="#fff"
         android:textStyle="bold"

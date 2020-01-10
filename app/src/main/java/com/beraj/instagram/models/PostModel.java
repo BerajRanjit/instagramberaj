@@ -2,6 +2,7 @@ package com.beraj.instagram.models;
 
 public class PostModel {
 
+
     private String postId, postBy, caption;
     int post, authorPic;
 //    int loveCount, loveReacts, comments;

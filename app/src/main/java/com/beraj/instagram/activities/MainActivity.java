@@ -62,19 +62,25 @@ public class MainActivity extends AppCompatActivity {
 
         loadStories();
 //        loadPosts();
+               listPosts.add(new PostModel("1","Samridhi Rai", "Nattu with new album", R.drawable.post5, R.drawable.post6));
+        listPosts.add(new PostModel("2","Matrika elm rai", "Bipul dai", R.drawable.post7, R.drawable.post4));
+        listPosts.add(new PostModel("3","Trisala gurung", "Dropped my new song please check", R.drawable.post9, R.drawable.post10));
+        listPosts.add(new PostModel("4","Shrinkhala Khatiwoda", "Candid", R.drawable.profilepic2, R.drawable.profilepic2));
+        listPosts.add(new PostModel("5","Naruto Uzumaki", "about to deal with Akatsuki", R.drawable.post12, R.drawable.post11));
+        listPosts.add(new PostModel("4","Naruto Uzumaki", "My son and me", R.drawable.post14, R.drawable.post11));
+        listPosts.add(new PostModel("6","Iron Man", "My lego figure looks sick", R.drawable.post16, R.drawable.post15));
+        listPosts.add(new PostModel("7","Superman", "from 90s to 2020", R.drawable.post18, R.drawable.post17));
+        listPosts.add(new PostModel("8","Rajesh Hamal", "Tasbir afai bolcha", R.drawable.post20, R.drawable.post19));
+        listPosts.add(new PostModel("9","Dare Devil", "Mask off freaking Mask off", R.drawable.post22, R.drawable.post21));
+        listPosts.add(new PostModel("10","Deadpool", "Ohh my Gooosshhh", R.drawable.post24, R.drawable.post23));
 
-        listPosts.add(new PostModel("1","Alastair Cook", "Looking back to old days", R.drawable.post5, R.drawable.post6));
-        listPosts.add(new PostModel("2","Ellyse Perry", "Game On", R.drawable.post7, R.drawable.post8));
-        listPosts.add(new PostModel("3","Kakasi", "Battle between two childhood friends!", R.drawable.post, R.drawable.profilepic));
-        listPosts.add(new PostModel("4","Tony Starc", "I am done with this.", R.drawable.profilepic2, R.drawable.profilepic2));
 
-
-        listStories.add(new StoryModel("1","Rohit Sharma", R.drawable.post1, 0));
-        listStories.add(new StoryModel("Virat Kohli", R.drawable.post3));
-        listStories.add(new StoryModel("1","Iron Man", R.drawable.post1, 0));
-        listStories.add(new StoryModel("Alastair Cook", R.drawable.post7));
+        listStories.add(new StoryModel("1","Batman ", R.drawable.post1, 0));
+        listStories.add(new StoryModel("Sajjan Raj Vaidhya", R.drawable.post3));
+        listStories.add(new StoryModel("1","Bipul chhetri", R.drawable.post2, 0));
+        listStories.add(new StoryModel("Rohit John Chhetri", R.drawable.post7));
 //        listStories.add(new StoryModel("2","Add", R.drawable.add, 0));
-//        listStories.add(new StoryModel("3","beraj Rajbhandari", R.drawable.home, 0));
+//        listStories.add(new StoryModel("3","beraj Ranjit", R.drawable.home, 0));
 //        setUpStories();
     }
 

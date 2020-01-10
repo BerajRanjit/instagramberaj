@@ -31,7 +31,7 @@
             android:maxLength="20"
             android:layout_alignTop="@+id/imgProfilePicPost"
             android:layout_toEndOf="@+id/imgProfilePicPost"
-            android:text="Iron Man"
+            android:text="Shrikhala khatiwoda"
             android:textColor="#000"
             android:textSize="22sp"
             android:textStyle="bold"/>
@@ -43,7 +43,7 @@
             android:layout_marginStart="15dp"
             android:layout_toEndOf="@+id/imgProfilePicPost"
             android:maxLength="20"
-            android:text="Avenger"
+            android:text="Instagrammer"
             android:textColor="#333"
             android:textSize="15sp"
             android:layout_below="@+id/tvUsername"/>
@@ -139,7 +139,7 @@
             android:layout_height="wrap_content"
             android:maxLength="38"
             android:layout_marginStart="5dp"
-            android:text="Liked by Naruto Uzumaki and 13M others"
+            android:text="Liked by Sisan Baniya, Sagar KC and 15k others"
             android:textSize="18sp"
             android:textColor="#262626"
             android:layout_gravity="center_vertical"/>
@@ -157,14 +157,14 @@
 
         <TextView
             android:id="@+id/tvCaptionBy"
-            android:layout_width="wrap_content"
+            android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:maxLength="20"
             android:layout_marginStart="15dp"
-            android:text="Iron Man"
+            android:maxLength="20"
+            android:text="Caption"
             android:textColor="#000"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvCaption"
@@ -172,7 +172,7 @@
             android:layout_height="wrap_content"
             android:maxLength="60"
             android:layout_marginStart="8dp"
-            android:text="Battle between childhood friends!!  #KakasiVsObito"
+            android:text="Smile is the best ornament a woman can wear #PC:- Sisan bro"
             android:textSize="18sp"
             android:textColor="#262626"/>
 
